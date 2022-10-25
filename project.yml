@@ -1,0 +1,17 @@
+environment: {}
+parameters: {}
+packages:
+  - name: default
+    environment: {}
+    parameters: {}
+    annotations: {}
+    functions:
+      - name: priv-dep
+        binary: false
+        main: ''
+        runtime: 'nodejs:18'
+        web: true
+        parameters: {}
+        environment: {}
+        annotations: {}
+        limits: {}
